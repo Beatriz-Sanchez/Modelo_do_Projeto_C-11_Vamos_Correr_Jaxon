@@ -48,8 +48,8 @@ function draw() {
   //menino se movendo no eixo X com o mouse
   Jaxon.x = World.mouseX;
   
-  Jaxon.collide(limiteEsquerdo);
-  Jaxon.collide(limiteDireito);
+  Jaxon.collide(leftBoundary);
+  Jaxon.collide(rightBoundary);
   
   //*** Descomente o código INDENTADO corretamente ***
   
